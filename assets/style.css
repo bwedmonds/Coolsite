@@ -1,5 +1,50 @@
-header  {
-  background-color: blue;
+.header  {
+  background-color: rgb(27, 62, 136);
+  color: white;
+  height: 90px;
   text-align: center;
-  height: 75px;
+  border: 2px solid black;
+}
+.header h1 {
+  padding-top: px;
+  font-size: 40px;
+}
+
+.fakeimg {
+  background-color: rgb(71, 125, 235);
+  width: auto;
+  height: 100px;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left column */
+.column.left {   
+  width: 50%;
+  border-top: 20px solid rgb(203, 226, 244);
+  margin-top: 30px;
+  margin-left: 125px;
+}
+
+/* Right column */
+.column.right {
+  width: 20%;
+  height: 60px;
+  padding-left: 60px;
+  margin-top: 80px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+background-color: rgb(27, 62, 137);
+height: 90px;
+border: 2px solid black;
 }
